@@ -10,8 +10,8 @@ class VideoFrameExtractor:
     def __init__(self, root):
         self.root = root
         self.root.title("Video Frame Extractor")
-        self.root.geometry("600x450")
-        self.root.resizable(False, False)
+        self.root.geometry("600x550")
+        self.root.resizable(True, True)
         
         self.video_path = None
         self.video_duration = 0
